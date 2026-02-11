@@ -1,22 +1,28 @@
 # ⚡ FastAPI Learning Repository
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Learning-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+![Stars](https://img.shields.io/badge/Support-Give%20a%20Star-yellow)
+
 > A personal learning repository created while exploring FastAPI deeply.
 
 Hello 👋  
-My name is **Krishnamohan Yagneswaran**.  
+My name is **Krishnamohan Yagneswaran**.
 
 I am currently learning **FastAPI** and building this repository as a structured way to understand core backend concepts like:
 
-- Sync vs Async
-- ASGI vs WSGI
-- Request/Response lifecycle
-- Validation
-- Dependency Injection
-- Authentication
-- Database integration
-- Deployment basics
+- Sync vs Async  
+- ASGI vs WSGI  
+- Request/Response lifecycle  
+- Validation  
+- Dependency Injection  
+- Authentication  
+- Database integration  
+- Deployment basics  
 
-This repository will continuously evolve.  
+This repository will continuously evolve.
 
 If I learn something new, I will update this repo.  
 If you know something useful, feel free to contribute.
@@ -25,83 +31,20 @@ This is not a finished product — it is a living learning document.
 
 ---
 
-# 🚀 What is FastAPI?
+## 📚 Detailed Explanations
 
-**FastAPI** is a modern, high-performance web framework for building APIs with Python.
+All detailed concepts and structured notes are available inside the **Wiki pages** of this repository.
 
-It is:
-
-- Built on Starlette (ASGI framework)
-- Uses Pydantic for validation
-- Async-ready
-- Extremely fast
-- Automatically generates API documentation
-
-Why it is popular:
-
-- Very clean syntax
-- Built-in validation
-- Automatic Swagger documentation
-- Strong type-based development
-- Production ready
+Please check the **Wiki tab** for in-depth explanations.
 
 ---
 
-# 🧠 Learning Roadmap
+## ⭐ Support
 
-## 1️⃣ Python Foundations (Required Before FastAPI)
+If you find this repository helpful:
 
-- Functions
-- Classes
-- Type hints
-- Virtual environments
-- JSON handling
-- Basic HTTP methods
+- Give it a ⭐ star  
+- Share it with others  
+- Contribute improvements  
 
----
-
-## 2️⃣ ASGI vs WSGI
-
-| Feature | WSGI | ASGI |
-|----------|--------|--------|
-| Sync | ✅ | ✅ |
-| Async | ❌ | ✅ |
-| WebSockets | ❌ | ✅ |
-
-FastAPI runs on ASGI servers like:
-
-- Uvicorn
-- Hypercorn
-
-Understanding this difference is important before learning async.
-
----
-
-## 3️⃣ Sync vs Async (Very Important Concept)
-
-### Sync (`def`)
-
-- Blocking
-- One request handled at a time
-- Easier to understand
-
-### Async (`async def`)
-
-- Non-blocking
-- Better for I/O operations
-- Handles multiple requests efficiently
-
-Example:
-
-```python
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/sync")
-def sync_route():
-    return {"message": "This is sync"}
-
-@app.get("/async")
-async def async_route():
-    return {"message": "This is async"}
+Your support motivates me to keep learning and updating 🚀
