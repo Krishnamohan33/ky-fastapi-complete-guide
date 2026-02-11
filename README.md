@@ -1,4 +1,4 @@
-# ⚡ FastAPI Learning Repository
+# ⚡ FastAPI Learning Repository – Beginner to Advanced Guide
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Learning-green)
@@ -6,45 +6,93 @@
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
 ![Stars](https://img.shields.io/badge/Support-Give%20a%20Star-yellow)
 
-> A personal learning repository created while exploring FastAPI deeply.
+> A structured **FastAPI tutorial and learning roadmap** covering async programming, ASGI architecture, backend fundamentals, and scalable API development.
 
 Hello 👋  
 My name is **Krishnamohan Yagneswaran**.
 
-I am currently learning **FastAPI** and building this repository as a structured way to understand core backend concepts like:
+This repository is my personal **FastAPI learning guide**, created to deeply understand modern backend development using Python.
 
-- Sync vs Async  
-- ASGI vs WSGI  
-- Request/Response lifecycle  
-- Validation  
+It is designed as a:
+
+- FastAPI beginner guide  
+- FastAPI roadmap  
+- FastAPI async vs sync explanation  
+- Backend API architecture reference  
+- Structured documentation resource  
+
+---
+
+# 🚀 What You Will Learn in This FastAPI Guide
+
+This repository covers important FastAPI and backend development concepts including:
+
+- Sync vs Async in Python  
+- ASGI vs WSGI architecture  
+- FastAPI request/response lifecycle  
+- Pydantic validation  
 - Dependency Injection  
-- Authentication  
-- Database integration  
-- Deployment basics  
+- Authentication (JWT, OAuth concepts)  
+- Database integration (SQL & NoSQL basics)  
+- Deployment fundamentals  
+- Scalable backend architecture principles  
 
-This repository will continuously evolve.
-
-If I learn something new, I will update this repo.  
-If you know something useful, feel free to contribute.
-
-This is not a finished product — it is a living learning document.
+This is not just a tutorial — it is a structured backend knowledge base.
 
 ---
 
-## 📚 Detailed Explanations
+# 🧠 Who Is This Repository For?
 
-All detailed concepts and structured notes are available inside the **Wiki pages** of this repository.
-
-Please check the **Wiki tab** for in-depth explanations.
+- Beginners learning FastAPI  
+- Developers transitioning from Flask/Django  
+- Students learning backend development  
+- Developers wanting to understand async programming  
+- Anyone building REST APIs with Python  
 
 ---
 
-## ⭐ Support
+# 📚 FastAPI Documentation & Deep Explanations
+
+All detailed explanations, architecture notes, and structured breakdowns are available inside the **Wiki pages** of this repository.
+
+The Wiki includes:
+
+- FastAPI engine explanation  
+- Async vs Sync deep dive  
+- ASGI server understanding  
+- Internal request flow  
+- Architecture concepts  
+
+👉 Please check the **Wiki tab** for in-depth explanations and structured documentation.
+
+---
+
+# 🔍 Keywords Covered in This Repository
+
+FastAPI tutorial  
+FastAPI roadmap  
+FastAPI for beginners  
+Async vs Sync Python  
+ASGI server explained  
+FastAPI architecture  
+Python backend development  
+REST API with FastAPI  
+FastAPI best practices  
+
+---
+
+# ⭐ Support This FastAPI Learning Project
 
 If you find this repository helpful:
 
 - Give it a ⭐ star  
-- Share it with others  
+- Share it with other developers  
 - Contribute improvements  
+- Suggest better explanations  
 
-Your support motivates me to keep learning and updating 🚀
+Your support motivates me to keep learning and expanding this FastAPI guide 🚀
+
+---
+
+Built and maintained by  
+**Krishnamohan Yagneswaran**
